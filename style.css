@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+.top-banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(56, 56, 50);
+    color: white;
+    align-items: center;
+}
+
+.top-banner ul li{
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.top-banner ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------- */
+a.top-banner-link:link,
+a.top-banner-link:visited{
+    color: white;
+    padding: 10px;
+}
+
+a.top-banner-link:hover,
+a.top-banner-link:active{
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+/* ------------ */
+
+
+.first-container{
+    background-image: url("./image/coffee-4.jpg");
+    background-size:cover;
+    background-position: center;
+    height:580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    padding-right: 100px;
+    padding-left: 100px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.first-container-section h1{
+   font-weight: bold;
+   font-size: 100px;
+   color: rgba(249, 248, 252, 0.959);
+    
+
+}
+
+.first-container-section p{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn-readmore{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+a.btn-readmore:link,
+a.btn-readmore:visited{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+a.btn-readmore:hover,
+a.btn-readmore{
+    color: rgb(0, 0, 0);
+    background-color:yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.social-media li {
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 50px;
+   
+}
+
+.fa-facebook{
+    color:#4267B2;
+    size: 2em;
+}
+
+.fa-instagram{
+    color:#9e226e;
+}
+
+.fa-twitter{
+    color: 	#1DA1F2;
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+
+/* ----------------------------------------------------- */
+
+.second-container{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.second-container h1{
+    padding:  20px;
+    text-align: center;
+    background-color: rgb(47, 99, 37);
+    color: rgb(252, 247, 247);
+}
+
+
+.products{
+    display: inline-flex;
+    gap: 10px;
+    position: center;
+    
+}
+
+.products li img{
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* --------------------------------- */
+
+.third-container h1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(47, 99, 37);
+    color: white;
+
+}
+
+.third-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+ 
+}
+.customer-rating{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.8rem;
+    column-gap: 1rem;
+    padding: 20px;
+}
+.customer-1{
+    display: block;
+    
+}
+
+.customer-1 img{
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    
+}
+.customer-1 h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.customer-1 p{
+    font-family:Arial;
+}
+
+.customer-picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2.8rem;
+    column-gap: .5rem;
+    padding: 20px;
+    background-color: rgb(5, 5, 5);
+   
+}
+
+.customer-picture img{
+    border-radius: 20px;
+    overflow: hidden;
+    display: block;
+    
+    transition: all 0.5s;
+}
+
+
+
+.customer-picture img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.596);
+}
+  
+
+/* -------------------------------------- */
+
+.last-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: rgb(82, 79, 79);
+    background-color: rgb(212, 199, 199);
+    line-height: 1.5em;
+}
